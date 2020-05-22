@@ -1,0 +1,128 @@
+<html>
+
+
+ <link rel="stylesheet" href="Style.css">
+
+<head><title>Questionaire</title></head>
+
+<body>
+
+
+<div class="grid-container">
+	<div class="item1">
+		<div class="content">
+
+<center>		
+<h2>Apple Survey Questionnaire</h2>
+<p>Click <a href="https://www.apple.com/ca/">here</a> to checkout our website.</p>
+
+<a href="https://www.apple.com/ca/"><img border="0" alt="Apple" src="Apple.gif" width="30" height="30"></a><p>Thank you for taking the time to answer these questions. The purpose of this questionnaire is to gather enough information so we can provide you with a better User Interface experinece.<br> Please note the information provided will only be used for stats purposes only.</p>
+</center>
+
+		</div>
+	</div>
+
+
+
+	<div class="item2">
+		<div class="content">
+			<hr>
+
+<form action="index.php" name="my form" method="POST"> 
+	
+<p><b>For what purpose are you using this website? (e.g: buy, browse, compare, ...)</b></p>
+<textarea rows="6" cols="50" name="purpose" form="usrform">I use this website for...</textarea>
+
+<br><br><br>
+
+<!--	First Name:
+	<input type="text" name="firstname">
+	<br><br>
+	Last Name: <input type="text" name="lastname"> <br><br>
+-->
+
+
+<p><b>What age range are you in?</b></p>
+<input type="radio" id="age1" name="age" value="30">
+  <label for="age1">0 - 30</label><br>
+  <input type="radio" id="age2" name="age" value="60">
+  <label for="age2">31 - 60</label><br>  
+  <input type="radio" id="age3" name="age" value="100">
+  <label for="age3">61 - 100</label><br><br><br>
+
+  <label for="gender"><b>Please select your gender:</b></label>
+<select id="gender">
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  <option value="Other">Other</option>
+</select>
+
+<br><br><br>
+
+
+<p><b>Which of the following words describe your experience with our website?</b></p>
+<input type="checkbox" id="Professional" name="Professional" value="Professional">
+  <label for="Professional"> Professional</label><br>
+  <input type="checkbox" id="Boring" name="Boring" value="Boring">
+  <label for="Boring"> Boring</label><br>
+  <input type="checkbox" id="Stylish" name="Stylish" value="Stylish">
+  <label for="Stylish"> Stylish</label><br>
+  <input type="checkbox" id="Confusing" name="Confusing" value="Confusing">
+  <label for="Confusing"> Confusing</label><br>
+  <input type="checkbox" id="Friendly" name="Friendly" value="Friendly">
+  <label for="Friendly"> Friendly</label><br>
+  <input type="checkbox" id="Unresponsive" name="Unresponsive" value="Unresponsive">
+  <label for="Unresponsive"> Unresponsive</label><br>
+  <input type="checkbox" id="Engaging" name="Engaging" value="Engaging">
+  <label for="Engaging"> Engaging</label><br>
+  <input type="checkbox" id="Inconsistent" name="Inconsistent" value="Inconsistent">
+  <label for="Inconsistent"> Inconsistent</label><br>
+  <input type="checkbox" id="Easy to navigate" name="Easy to navigate" value="Easy to navigate">
+  <label for="Easy to navigate"> Easy to navigate</label><br>
+  <input type="checkbox" id="Unreliable" name="Unreliable" value="Unreliable">
+  <label for="Unreliable"> Unreliable</label><br><br><br>
+
+
+<p><b>What can we do to improve our website?</b></p>
+<textarea rows="10" cols="50" name="comment" form="usrform">Leave comments here...</textarea>
+
+<br><br><br>
+
+
+<p><b>On the whole, I am satisfied with my experience:</b></p>
+Strongly Agree
+<button class ="button" type ="button" >1</button>
+<button class ="button" type ="button" >2</button>
+<button class ="button" type ="button" >3</button>
+<button class ="button" type ="button" >4</button>
+<button class ="button" type ="button" >5</button>
+Strongly Disagree
+
+
+<br><br><br>
+
+
+<!--	<input type="submit" value="Submit">
+-->
+</form>
+
+<center><button class="submitButton" type="button" >Submit </button></center>
+		
+		</div>
+	</div>
+
+<hr>
+
+	<div class="item3">
+		<div class="content">
+			<hr>
+
+<footer>
+  <p><i><center>Website designed by Karly Charles.</center></i></p>
+</footer>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

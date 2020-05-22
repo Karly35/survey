@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  background: url(appleglass.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.button{
+  background-color: transparent;
+  border:2px solid #57638c;
+  color: black;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+
+
+.content {
+  max-width: 700px;
+  margin: auto;
+  background: none;
+  padding: 0px;
+}
+
+.item1 { 
+  grid-area: header; 
+}
+.item2 { 
+  grid-area: body; 
+}
+.item3 { 
+  grid-area: footer; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'body body body body body body'
+    'footer footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: none;
+  padding: 10px;
+}
+
+hr{ 
+  height: 2px;
+  color: #57638c;
+  background-color: #57638c;
+  border: none;
+}
+
+textarea {
+  background: transparent;
+  color: black;
+  font-size: 12px;
+  outline: none;
+  border:2px solid #57638c;
+}
+
+.submitButton{
+  background-color: green;
+  padding: 8px 14px;
+  height:40px;
+  width:80px;
+  font-size: 14px;
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 2px 3px grey;
+}
+
+footer{
+  text-align: center;
+  text-shadow: 2px 3px lightgrey;
+}
+
+
